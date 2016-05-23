@@ -5,9 +5,14 @@
     	<title>LoopGIFs</title>
 	</head>
 	<body>
+	<canvas id="cvs" width="960" height="540">
+  		
+	</canvas>
 	test test test test 
 		<script>
-			// b = body, c = cvs, a = ctx
+var b = document.body;
+var c = document.getElementById("cvs");
+var a = cvs.getContext("2d");
 // Build steps: Run Closure Compiler advanced, remove newlines, remove last semicolon, wrap in IIFE, run First Crush
 
 var w = this,
